@@ -40,6 +40,10 @@ int main() {
 3. Compile your project with `math+.c`.
 4. All usage instructions are available via the `info()` (English) or `info_ru()` (Russian) functions.
 
+**OR**
+
+1. Add .o file to directory with your project
+2. Compile with your project
 ## Function List
 
 - Arithmetic: `plusi`, `plusd`, `plusf`, `minusi`, `minusd`, `minusf`, ...
