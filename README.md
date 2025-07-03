@@ -1,6 +1,6 @@
 # Math+ (mathplus)
 
-**Math+** is a universal and user-friendly math library for C, designed for students, educators, programmers, and anyone who needs both basic and advanced mathematical functions at hand.
+**Math+** is a universal and user-friendly math library for C and C++, designed for students, educators, programmers, and anyone who needs both basic and advanced mathematical functions at hand.
 
 ## Features
 
