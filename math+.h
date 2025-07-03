@@ -5,6 +5,10 @@
 #include <math.h>
 #include <stdlib.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 // Базовые арифметические операции (int)
 int plusi(int a, int b, int *f);
 int minusi(int a, int b, int *f);
@@ -103,5 +107,9 @@ void info_ru();
 #define cube_root(a, f) cube_rootd(a, f)
 #define logarithm(a, f) logarithmd(a, f)
 #define random(min, max, f) randomi(min, max, f)
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // MATH_PLUS_H
