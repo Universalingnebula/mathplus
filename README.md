@@ -38,6 +38,7 @@ int main() {
 2. Подключите заголовочный файл:  
    `#include "math+.h"`
 3. Соберите проект с math+.c.
+4. Все инструкции есть по функции info_ru() (info() for English instructions)
 
 ## Список функций
 
