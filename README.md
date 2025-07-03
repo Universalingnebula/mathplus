@@ -1,19 +1,19 @@
 # Math+ (mathplus)
 
-**Math+** — это универсальная и удобная математическая библиотека для C, разработанная для студентов, преподавателей, программистов и всех, кому нужны простые и расширенные математические функции “под рукой”.
+**Math+** is a universal and user-friendly math library for C, designed for students, educators, programmers, and anyone who needs both basic and advanced mathematical functions at hand.
 
-## Особенности
+## Features
 
-- 📐 **Поддержка типов:** функции реализованы для `int`, `float` и `double` — вы выбираете нужный тип!
-- ➕ **Базовые операции:** сложение, вычитание, умножение, деление, возведение в степень, корни, логарифмы.
-- 🔢 **Специальные функции:** факториал, числа Фибоначчи, генерация случайных чисел.
-- 🧮 **Тригонометрия и экспоненты:** синус, косинус, тангенс, экспонента, натуральные и десятичные логарифмы.
-- 🏷️ **Алиасы:** удобные макросы для короткого вызова привычных функций.
-- 🧑‍💻 **Информативность:** встроенные функции info() и info_ru() расскажут о возможностях библиотеки на русском и английском языках.
-- 🚦 **Обработка ошибок:** сообщения об ошибках при некорректных входных данных.
-- 🌍 **Мультиязычность:** документация и информационные функции на русском и английском.
+- 📐 **Type Support:** Functions are implemented for `int`, `float`, and `double` — you choose the type you need!
+- ➕ **Basic Operations:** Addition, subtraction, multiplication, division, exponentiation, roots, logarithms.
+- 🔢 **Special Functions:** Factorial, Fibonacci numbers, random number generation.
+- 🧮 **Trigonometry and Exponents:** Sine, cosine, tangent, exponentials, natural and common logarithms.
+- 🏷️ **Aliases:** Convenient macros for quick access to familiar functions.
+- 🧑‍💻 **Informative:** Built-in `info()` and `info_ru()` functions give you a quick overview in English or Russian.
+- 🚦 **Error Handling:** Clear error messages for invalid input data.
+- 🌍 **Multilingual:** Documentation and info functions available in both English and Russian.
 
-## Пример использования
+## Usage Example
 
 ```c
 #include "math+.h"
@@ -25,43 +25,43 @@ int main() {
 
     int fib;
     fibonaccii(10, &fib);
-    printf("10-е число Фибоначчи: %d\n", fib);
+    printf("10th Fibonacci number: %d\n", fib);
 
-    info_ru(); // Краткая справка на русском
+    info(); // Quick help in English
     return 0;
 }
 ```
 
-## Быстрый старт
+## Quick Start
 
-1. Скачайте `math+.h` и `math+.c` в ваш проект.
-2. Подключите заголовочный файл:  
+1. Download `math+.h` and `math+.c` to your project.
+2. Include the header file:  
    `#include "math+.h"`
-3. Соберите проект с math+.c.
-4. Все инструкции есть по функции `info_ru()` (`info()` for English instructions)
+3. Compile your project with `math+.c`.
+4. All usage instructions are available via the `info()` (English) or `info_ru()` (Russian) functions.
 
-## Список функций
+## Function List
 
-- Арифметика: `plusi`, `plusd`, `plusf`, `minusi`, `minusd`, `minusf`, ...
-- Факториал и фибоначчи: `factoriali`, `factoriald`, `factorialf`, `fibonaccii`, ...
-- Степени и корни: `poweri`, `powerd`, `powerf`, `square_rootd`, `square_rootf`, ...
-- Логарифмы: `logarithmd`, `logarithmf`, ...
-- Тригонометрия: `sin_radd`, `cos_radd`, `tan_radd`, `sin_radf`, ...
-- Случайные числа: `randomi`, `randomd`, `randomf`
-- Информационные: `info()`, `info_ru()`
-- Полный перечень — см. в файле `math+.h`
+- Arithmetic: `plusi`, `plusd`, `plusf`, `minusi`, `minusd`, `minusf`, ...
+- Factorial and Fibonacci: `factoriali`, `factoriald`, `factorialf`, `fibonaccii`, ...
+- Powers and Roots: `poweri`, `powerd`, `powerf`, `square_rootd`, `square_rootf`, ...
+- Logarithms: `logarithmd`, `logarithmf`, ...
+- Trigonometry: `sin_radd`, `cos_radd`, `tan_radd`, `sin_radf`, ...
+- Random numbers: `randomi`, `randomd`, `randomf`
+- Info functions: `info()`, `info_ru()`
+- Full list — see in `math+.h`
 
-## Совместимость
+## Compatibility
 
-- Стандарт C99 и выше.
-- Кроссплатформенно: Linux, Windows, macOS.
+- Requires C99 or newer.
+- Cross-platform: Linux, Windows, macOS.
 
-## Лицензия
+## License
 
-GNU General Public License v3.0 — свободно используйте, модифицируйте и распространяйте с соблюдением условий лицензии!
+GNU General Public License v3.0 — you are free to use, modify, and distribute under the license terms!
 
 ---
 
-**Math+** — это больше, чем просто “арифметика” — это твоя персональная математическая лаборатория в мире C!
+**Math+** is more than just “arithmetic” — it’s your personal math lab in the world of C!
 
-P.S. В отличие от моего прошлого проекта этот уже писал больше я, чем ИИ (за исключением математических функций, которые я не понимаю).
+P.S. Unlike my previous project, most of this library was written by me, not AI (except for mathematical functions that I don't fully understand).
